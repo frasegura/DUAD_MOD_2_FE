@@ -9,9 +9,12 @@
         <h1>Elecciones</h1>
         <main>
             <form action="welcome.html">
-                <legend>Seleccione su nombre</legend>
+                <label for="name">Ingrese su nombre</label>
+                <input type="text" id="name" name="user_name">
                 <br/>
+
                 <!--Opciones-->
+                <legend>Seleccione su numero de candidadto</legend>
                 <input type="radio" id="candidato1" name="candidato">
                 <label for="candidato1">Candidato #1</label><br/>
 
@@ -23,13 +26,13 @@
                 <br/>
 
                 <label for="mail">Correo</label><br/>
-                <input type="text" id="mail_field" name="mail"><br/>
+                <input type="text" id="mail" name="mail"><br/>
                 
                 <label for="id_number">Numero de identificacion</label><br/>
-                <input type="text" id="id_field" name="idNumber"><br/>
+                <input type="text" id="id_number" name="idNumber"><br/>
                 
                 <label for="phone_number">Telefono</label><br/>
-                <input type="text" id="phone_number_field" name="phoneNumber"><br/>
+                <input type="text" id="phone_number" name="phoneNumber"><br/>
                 <br/>
                 <button type="submit">Registrarse</button>
             </form>
